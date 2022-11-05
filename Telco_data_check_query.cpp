@@ -60,7 +60,7 @@ int main()
             cout << numberCalls[phone] << endl;
         }else if(type == "?number_total_calls")
             cout << totalCalls << endl;
-         else if(type=="?cout_time_calls_from"){
+         else if(type=="?count_time_calls_from"){
             string phone;
             cin >> phone;
             cout << timeCall[phone] << endl;
